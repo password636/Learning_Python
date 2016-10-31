@@ -1,8 +1,8 @@
 #import sys
 #print (sys.path)
 
-from sys import path
-print (path)
+from sys import path;
+print (path);
 #print (sys.path)	# error
 
 from math import sqrt
@@ -14,5 +14,6 @@ else:
 	print('I am being imported from another module')
 
 
-print ('hello, \
+print (r'hello, \
 			world')
+
