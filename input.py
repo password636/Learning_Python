@@ -1,1 +1,2 @@
-input()
+something = input('ENter')
+print(something)
