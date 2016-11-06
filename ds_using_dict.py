@@ -14,8 +14,11 @@ for name, address in ab.items():
 	print('Contact {} at {}'.format(name, address))
 
 ab['Guido'] = 'guido@python.org'
+
 if 'Guido' in ab:
 	print("\nGuido's address is", ab['Guido'])
 
-
-print (ab.items())
+# member functions
+print( ab.items() )	# a set-like object
+print( ab.keys() )
+print( ab.values() )

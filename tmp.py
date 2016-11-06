@@ -17,3 +17,6 @@ else:
 print (r'hello, \
 			world')
 
+
+if ad == none:
+	
