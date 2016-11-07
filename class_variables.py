@@ -8,7 +8,15 @@ class TestClass(object):
 
 #print(TestClass.__dict__.keys())
 inst1 = TestClass()
-#print(inst1.__dict__.keys())
+
+
+print(inst1.a)
+
+#inst1.a = 100
+inst1.__class__.a = 100
+print(TestClass.__dict__)
+#del( TestClass.a )
+#print(inst1.__class__.a)
 #inst1.d = 50
 #print(inst1.__dict__.keys())
 try:
