@@ -1,0 +1,7 @@
+s = input('Enter some integers with comma: ')
+mylist = list(s.split(','))
+mylist2 = s.split(',')	# S.split() returns a list object, so no need to use list()
+mytuple = tuple(s.split(','))
+print(mylist)
+print(mylist2)
+print(mytuple)
