@@ -1,0 +1,5 @@
+#print([x for x in input().split(',')].sort())a
+
+mylist = [x for x in input().split(',')]
+mylist.sort()
+print(mylist)
