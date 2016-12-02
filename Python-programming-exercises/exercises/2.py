@@ -1,4 +1,4 @@
-m = int(input('Enter an integer: '))
+m = int(input('Enter an integer: '))	# must use int()
 m1 = m
 
 # implement by loop
