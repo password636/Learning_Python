@@ -1,2 +1,0 @@
-ss = r"\\"
-print(ss)
